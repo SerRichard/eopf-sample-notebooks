@@ -20,7 +20,7 @@ dependencies:
   - black-jupyter
   - ipykernel
   - jupyterlab-myst
-  - pysqlite2
   - pip
   - pip:
       - eopf==2.5.5
+      - pysqlite==2.8.3
