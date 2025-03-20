@@ -2,14 +2,11 @@ name: eopf-zarr
 channels:
   - conda-forge
 dependencies:
-  - python=3.11.7
+  - python=3.11
   - xarray
   - folium
   - graphviz
   - mapclassify
-  - matplotlib=3.10.0
-  - matplotlib-inline=0.1.7
-  - bottleneck=1.4.2
   - fsspec
   - numpy
   - mystmd
@@ -17,4 +14,4 @@ dependencies:
   - gdal
   - pip
   - pip:
-      - eopf==2.5.5
+    - eopf==2.5.5
