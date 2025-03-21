@@ -3,15 +3,20 @@ channels:
   - conda-forge
 dependencies:
   - python=3.11
-  - xarray
+  - xarray=2024.11.0
   - folium
   - graphviz
   - mapclassify
+  - matplotlib=3.10.0
+  - matplotlib-inline=0.1.7
+  - bottleneck=1.4.2
   - fsspec
-  - numpy
+  - numpy=1.26.4
   - mystmd
   - cartopy
   - gdal
+  - jupyterlab-myst
+  - python-graphviz
   - pip
   - pip:
-    - eopf==2.5.5
+      - eopf==2.5.5
